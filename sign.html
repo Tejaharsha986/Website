@@ -1,100 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registration From</title>
-    <style>
-        *{
-            background-color:blanchedalmond;
-        }
-        
-        table{
-            width:75%;
-        }
-        caption{
-            text-align:centre;
-            caption-side:top;
-        }
-        td, th, table{
-            border:2px solid;
-        }
-        td{
-            padding:10px;
-            color: #ff7200;
-        }
-        #r1{
-            background:yellowgreen;
-        }
-        .btn{
-          width: 160px;
-          height: 40px;
-          background: #ff7200;
-          border: none;
-          margin-bottom: 10px;
-          margin-left: 20px;
-          font-size: 18px;
-          border-radius: 10px;
-          cursor: pointer;
-          transition: 00.4s ease;
-        }
-        .btn:hover{
-          background-color: #fff;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SignUp Form</title>
+  <link rel="stylesheet" href="she.css">
 </head>
 <body>
-    <table>
-        <caption>New User Sign Up Form 
-        </caption>
-        <tr>
-          <td>Name</td>
-          <td><input type="text"></td>
-          <td>Gender</td>
-          <td><input type="text"> </td>
-         
-        </tr>
-        <tr>
-          <td>Nationality</td>
-          <td><input type="text">
-          <td>Birthplace</td>
-          <td><input type="text"></td>
-        </tr>
-        
-        <tr>
-          <td>ID number</td>
-          <td><input type="text"></td>
-          <td>Date of Birth</td>
-          <td><input type="text"></td>
-        </tr>
-        <tr>
-          <td>Political Status</td>
-          <td><input type="text"></td>
-           <td>Account location</td>
-          <td><input type="text"></td>
-        </tr>
-        <tr>
-           <td>Address</td>
-          <td><input type="text"></td>
-           <td>Home number</td>
-          <td><input type="text"></td>
-        </tr>
-        
-        <tr>
-           <td>Graduated school</td>
-          <td><input type="text"></td>
-           <td>Education</td>
-          <td><input type="text"></td>
-           
-        <tr>
-           <td>Forgein language</td>
-          <td><input type="text"></td>
-           <td>computer Skills</td>
-          <td><input type="text"></td>
-        </tr>
-        <button class="btn"><a href="http://127.0.0.1:5500/index.html"></a>SignIn</button>
-        
-            
+  <script src="app.js"></script>
+  <form>
+    <h1>SignUp</h1>
+    <input id="username" type="text" name="" placeholder="UserName">
+    <input id="email" type="email" name="" placeholder="Enter your email">
+    <input id="pass" type="password" name="" placeholder="Enter your password">
+    <input type="password" name="" placeholder="Conform Password">
+    <button type="submit" onclick = "signup()"><a href="http://127.0.0.1:5500/index.html">Login</a></button>
+  </form>
+  
+  
 </body>
 </html>
